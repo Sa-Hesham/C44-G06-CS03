@@ -73,11 +73,53 @@
             //    int x = (int)a;
             //    Console.WriteLine(x);
             //}
-           
 
 
 
 
+
+            #endregion
+
+
+            #region convert & parsing & tryParse(casting...)
+            #region convert
+            // class provide methods that convert between  different data taypes
+            //accept null values 
+            //// convert null value to zero with int 
+            //throw exceptions if the values invalid 
+
+            //Console.WriteLine("please enter your name ");
+            //string? name = Console.ReadLine();
+
+            //Console.WriteLine("please enter your age ");
+            //int? age = (Convert.ToInt32(Console.ReadLine()));
+
+            //Console.WriteLine("enter your salary ");
+            //decimal Salary = Convert.ToDecimal(Console.ReadLine());
+            //Console.Clear();
+            //Console.WriteLine("name is :" + name);
+            //Console.WriteLine("age :{0}",age);
+            //Console.WriteLine("salary{0}",Salary);
+
+
+            #endregion
+
+            #region Parse
+
+            Console.WriteLine("please enter your name ");
+            string? name = Console.ReadLine();
+
+            Console.WriteLine("please enter your age ");
+            int? age = (int.Parse(Console.ReadLine()));
+
+            Console.WriteLine("enter your salary ");
+            decimal? Salary = decimal.Parse(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine("name is :" + name);
+            Console.WriteLine("age :{0}", age);
+            Console.WriteLine("salary{0:c}", Salary);
+
+            #endregion
             #endregion
 
         }
