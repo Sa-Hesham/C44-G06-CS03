@@ -1,4 +1,6 @@
-﻿namespace demo
+﻿using System.Runtime.InteropServices;
+
+namespace demo
 {
     internal class Program
     {
@@ -106,20 +108,48 @@
 
             #region Parse
 
-            Console.WriteLine("please enter your name ");
-            string? name = Console.ReadLine();
+            //Console.WriteLine("please enter your name ");
+            //string? name = Console.ReadLine();
 
-            Console.WriteLine("please enter your age ");
-            int? age = (int.Parse(Console.ReadLine()));
+            //Console.WriteLine("please enter your age ");
+            //int? age = (int.Parse(Console.ReadLine()));
 
-            Console.WriteLine("enter your salary ");
-            decimal? Salary = decimal.Parse(Console.ReadLine());
-            Console.Clear();
-            Console.WriteLine("name is :" + name);
-            Console.WriteLine("age :{0}", age);
-            Console.WriteLine("salary{0:c}", Salary);
+            //Console.WriteLine("enter your salary ");
+            //decimal? Salary = decimal.Parse(Console.ReadLine());
+            //Console.Clear();
+            //Console.WriteLine("name is :" + name);
+            //Console.WriteLine("age :{0}", age);
+            //Console.WriteLine("salary{0:c}", Salary);
 
             #endregion
+
+            #region tryparse
+            //string s1 = "Ahmed";
+            //int x;
+            //bool istrue = int.TryParse(s1,out x);
+            //Console.WriteLine(x);
+            //Console.WriteLine(istrue );
+
+            //Console.WriteLine("please enter your name ");
+            //string? name = Console.ReadLine();
+
+            //Console.WriteLine("please enter your age ");
+            //int.TryParse(Console.ReadLine() ,out int age);
+
+            //Console.WriteLine("enter your salary ");
+            // decimal.TryParse(Console.ReadLine(),out decimal salary);
+            //Console.Clear();
+            //Console.WriteLine("name is :" + name);
+            //Console.WriteLine("age :{0}", age);
+            //Console.WriteLine("salary{0:c}", salary);
+
+            #endregion
+
+
+
+
+
+
             #endregion
 
         }
