@@ -69,16 +69,16 @@ namespace assignment
             // we can also using double datatype insead of  float 
             // because double [15-16 after precition] More accurate than float [7 after precition] 
             // decimal is More accurate than [28 ,29 digit]  after precition
-            Console.WriteLine("Enter the first number");
+            //Console.WriteLine("Enter the first number");
 
-            float.TryParse(Console.ReadLine(),out float num1);
+            //float.TryParse(Console.ReadLine(),out float num1);
 
 
-            Console.WriteLine("Enter the second number");
+            //Console.WriteLine("Enter the second number");
 
-            float.TryParse(Console.ReadLine(), out float num2);
+            //float.TryParse(Console.ReadLine(), out float num2);
 
-            float result = (num1 + num2);
+            //float result = (num1 + num2);
 
             //Console.WriteLine($"sum = {result}");
 
@@ -92,6 +92,19 @@ namespace assignment
 
 
 
+
+            #endregion
+
+
+
+
+            #region Q4
+
+            string Name = "Elsayed hesham";
+     
+
+            string sub = Name.Substring(1,4); //lsay
+            Console.WriteLine(sub);
 
             #endregion
 
