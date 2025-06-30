@@ -352,6 +352,23 @@ namespace assignment
 
 
 
+            #region Q13
+
+            //Which of the following statements is correct about the C#.NET code snippet given below?
+            //  !(30<20)
+            //!(false)
+            //!false=ture 
+            //true=1
+            //A value 1 will be assigned to d.
+
+
+
+            #endregion
+
+
+
+
+
 
 
 
