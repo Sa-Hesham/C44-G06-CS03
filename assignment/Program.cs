@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Diagnostics.CodeAnalysis;
+using System;
 
 namespace assignment
 {
@@ -186,6 +187,52 @@ namespace assignment
             //string S3 = s1 +" "+ s2;
 
             //Console.WriteLine($"Welcom : {S3} ");
+
+
+            #endregion
+
+
+
+            #region Q8
+
+            //Write a program that calculates the simple interest given the principal amount, rate of interest,
+            // and time.The formula for simple interest is
+            //Interest = (principal * rate * time) / 100.
+
+
+            //Console.WriteLine("please enter primcipal amount ");
+
+            //double.TryParse(Console.ReadLine(), out double amount);
+
+
+
+            //Console.WriteLine("enter the rate  % ");
+
+            //double.TryParse(Console.ReadLine(), out double rate);
+
+
+
+            //Console.WriteLine("enter the hours   in year ");
+
+
+            //double.TryParse(Console.ReadLine(), out double time );
+
+
+            //double interest = (amount * rate * time) / 100;
+
+
+            //Console.WriteLine(interest);
+
+
+
+
+
+
+
+
+
+
+
 
 
             #endregion
