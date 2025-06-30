@@ -100,11 +100,41 @@ namespace assignment
 
             #region Q4
 
-            string Name = "Elsayed hesham";
-     
+            //string Name = "Elsayed hesham";
 
-            string sub = Name.Substring(1,4); //lsay
-            Console.WriteLine(sub);
+
+            //string sub = Name.Substring(1,4); //lsay
+            //Console.WriteLine(sub);
+
+            #endregion
+
+
+
+            #region Q5
+
+            //Write C# program that Assigning one value type variable to another and modifying 
+            //    the value of one variable and mention what will happen
+
+            //int a = 10;
+            //int b = 5;
+            //b = a;
+            //b=a because  they are value types 
+            //b take a copy  from a value  and old value of (b deleted  ) 
+            // b is indpendent and  a is indpendent 
+            //Console.WriteLine("before");
+            //Console.WriteLine("a = "+ a); //a=10
+            //Console.WriteLine("b = "+ b); //b=10;
+
+            // if we changed  the value of b  =20 
+            // there is no changes in vlaue of a =10
+            //b = 20;
+            //Console.WriteLine(" after ");
+            //Console.WriteLine("a = " + a); //a=10
+            //Console.WriteLine("b = " + b); //b=20;
+
+
+
+
 
             #endregion
 
