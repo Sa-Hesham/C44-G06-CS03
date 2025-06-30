@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 using System.Text;
 
@@ -236,89 +237,105 @@ namespace demo
 
 
 
-            #endregion
+        #endregion
 
 
-            #region conditional statments
+        #region conditional statments
 
-            #region if statement exampl_1
+        #region if statement exampl_1
 
-            //Console.WriteLine("please Enter the month number existed in 1ST quarter");
-            //int.TryParse(Console.ReadLine(), out int month);
+        //Console.WriteLine("please Enter the month number existed in 1ST quarter");
+        //int.TryParse(Console.ReadLine(), out int month);
 
-            //if (month == 1)
-            //{
+        //if (month == 1)
+        //{
 
-            //    Console.WriteLine("jeanuary");
+        //    Console.WriteLine("jeanuary");
 
-            //}
-            //else if (month == 2)
-            //{
-
-
-            //    Console.WriteLine("february");
-
-            //}
-            //else if (month == 3)
-            //{
-
-            //    Console.WriteLine("march");
-
-            //}else
-            //{
-
-            //    Console.WriteLine("invalid month");
-            //}
-
-    
-                #region switch
+        //}
+        //else if (month == 2)
+        //{
 
 
-            //switch (month)
-            //{
-            //    case 1:
-            //        Console.WriteLine("february");
-            //        break;
+        //    Console.WriteLine("february");
 
-            //    case 2:
-            //        Console.WriteLine("february");
-            //        break;
+        //}
+        //else if (month == 3)
+        //{
 
-            //    case 3:
+        //    Console.WriteLine("march");
 
-            //        Console.WriteLine("march");
-            //        break;
+        //}else
+        //{
 
-            //    default:
-            //        Console.WriteLine("invalid month");
-            //        break;
-
-            //}
+        //    Console.WriteLine("invalid month");
+        //}
 
 
-            #endregion
+        #region switch
 
 
-            #endregion
+        //switch (month)
+        //{
+        //    case 1:
+        //        Console.WriteLine("february");
+        //        break;
 
-            #region Example_2
+        //    case 2:
+        //        Console.WriteLine("february");
+        //        break;
 
-            //int age =22;
+        //    case 3:
 
-            //switch(age)
-            //{
-            //    case > 22:
-            //        Console.WriteLine("he is greater than 22");
-            //        break;
-            //    case < 22:
-            //        Console.WriteLine("less than 22");
-            //        break;
-            //    default:
-            //        Console.WriteLine("he is 22 ");
-            //        break;
-            //}
+        //        Console.WriteLine("march");
+        //        break;
+
+        //    default:
+        //        Console.WriteLine("invalid month");
+        //        break;
+
+        //}
 
 
+        #endregion
+
+
+        #endregion
+
+        #region Example_2
+
+        //int age =22;
+
+        //switch(age)
+        //{
+        //    case > 22:
+        //        Console.WriteLine("he is greater than 22");
+        //        break;
+        //    case < 22:
+        //        Console.WriteLine("less than 22");
+        //        break;
+        //    default:
+        //        Console.WriteLine("he is 22 ");
+        //        break;
+        //}
+
+
+        #endregion
+
+        #region Example_3
+
+           //Retry:
+           // Console.WriteLine("enter your name ");
+           //string  name= Console.ReadLine() !;
+
+           // if (name == "Ahmed")
+           // {
+           //     goto Retry;
+           // }
+           // else
+           // {
+           //     Console.WriteLine(name);
+           // }
             #endregion
 
 
