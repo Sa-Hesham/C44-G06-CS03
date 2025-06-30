@@ -1,11 +1,16 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Runtime.InteropServices;
+using System.Text;
 
 namespace demo
 {
     internal class Program
     {
         static void Main(string[] args)
+
         {
+
+
             #region Fractions And discards
             //// by defualt  decimal numbers is d ouble 
             //double  d =3.5; // 8 byte  15 or 16 digit after  Decimal point
@@ -145,6 +150,14 @@ namespace demo
 
             #endregion
 
+
+
+
+
+
+            #endregion
+
+
             #region operations
 
             #region Arithmetic Operations 
@@ -184,7 +197,41 @@ namespace demo
             //Console.WriteLine(a); 
 
             #endregion
+
+
             #endregion
+
+
+
+            #region String Foramting 
+
+            //1- string concatonation
+            //10+5=15
+            //int a = 10 ,b=5 ,result =a+b;
+            //Console.WriteLine(a + "+" + b + " = "+result);
+
+            // 2-CompositeFormating
+
+            //Console.WriteLine("{0} + {1} = {2}",a,b,result);
+
+
+            //3-string.format
+
+
+            //string message = string.Format("{0} + {1} = {2}", a, b, result);
+            //Console.WriteLine(message);
+
+
+
+            //4 interpolation 
+            //Console.WriteLine($"{a} + {b} = {result}");
+
+
+
+
+            Console.WriteLine(@"C: \Users\sayed\OneDrive\Desktop\all_projects\Session3\Session3.sln");
+
+
 
 
 
