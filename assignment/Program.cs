@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Diagnostics.CodeAnalysis;
 using System;
+using System.Reflection.Metadata;
 
 namespace assignment
 {
@@ -246,19 +247,52 @@ namespace assignment
             //The formula for BMI is BMI = (Weight) / (Height * Height)
 
            
-            Console.WriteLine("Enter  your weight  ");
-            double weight = checked(Convert.ToDouble(Console.ReadLine()));
+            //Console.WriteLine("Enter  your weight  ");
+            //double weight = checked(Convert.ToDouble(Console.ReadLine()));
 
-            Console.WriteLine("Enter  your height (meters)");
-            double height = checked(Convert.ToDouble(Console.ReadLine()));
+            //Console.WriteLine("Enter  your height (meters)");
+            //double height = checked(Convert.ToDouble(Console.ReadLine()));
 
             
-            double BMI = weight / (height * height);
-            Console.Clear();
+            //double BMI = weight / (height * height);
+            //Console.Clear();
 
-            Console.WriteLine($"Your BMI is: {BMI}");
+            //Console.WriteLine($"Your BMI is: {BMI}");
 
 
+
+            #endregion
+
+
+
+
+
+            #region Q10
+
+            //Write a program that uses the ternary operator to check if the temperature is too hot, 
+            //too cold, or just good. Assign the result in a variable then display the result. 
+            //Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything else is "Just Good".
+
+         //   Console.WriteLine("welcome to the tempreture Checker \n \n");
+
+       
+         //   Console.WriteLine("Please Enter the dgree today");
+         //bool Iscorrect=  int.TryParse(Console.ReadLine(), out int dgree);
+
+         //   if (Iscorrect) {
+
+         //       string message = (dgree > 30) ? "it is hot today" : 
+         //                         (dgree < 10) ? "it is cold today" : 
+         //                         "it is Good";
+
+         //                     Console.WriteLine(message);
+         //   }
+           
+         //   else
+         //   {
+
+         //       Console.WriteLine("invalid input please try again");
+         //   }
 
             #endregion
 
