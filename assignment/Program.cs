@@ -385,6 +385,31 @@ namespace assignment
 
 
 
+            #region Q15
+
+
+
+           // 15 - What will be the output of the C# code given below?
+
+
+               // int num = 1, z = 5;
+
+
+            // if (!(num <= 0))                                              //==> (1<=0) ---> false 
+                                                                           // ! false ----> ture 
+              //Console.WriteLine(++num + z++ + " " + ++z);  
+              //  ++(pre ) num =2 , (z++)--->postix = out z=5   , ++z  ==> z=6++ z=7
+               //2+5 =7 +" "+ 7
+            //else
+                //Console.WriteLine(--num + z-- + " " + --z);
+
+             // output = D) 7 7 
+
+            #endregion
+
+
+
+
 
 
 
