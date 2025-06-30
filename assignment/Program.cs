@@ -319,7 +319,7 @@ namespace assignment
             //int year = int.Parse((Console.ReadLine()));
 
 
-            
+
             //Console.Clear();
 
             //Console.WriteLine($"Today's date: {day} , {month} , {year} ");
@@ -328,13 +328,41 @@ namespace assignment
 
             //Console.WriteLine($"Today's date: {day} – {month} – {year}");
 
+            #endregion
+
+
+
+
+
+
+
+
+            #region q12
+
+
+
+            //hat is the output of the following C# code?
+
+            //the output (c) : 06/14/2024  
+
+            #endregion
+
+
+
+
+
+
 
 
 
         }
 
 
-        #endregion
+
+
+
+
+
 
 
 
