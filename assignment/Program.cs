@@ -177,6 +177,22 @@ namespace assignment
 
 
 
+            #region Q7
+
+            ////Write C# program that take two string variables and print them as one variable 
+            //string s1 = "Sayed ";
+            //string s2= "hesham";
+
+            //string S3 = s1 +" "+ s2;
+
+            //Console.WriteLine($"Welcom : {S3} ");
+
+
+            #endregion
+
+
+
+
 
 
 
