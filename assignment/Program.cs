@@ -246,14 +246,14 @@ namespace assignment
             //Write a program that calculates the Body Mass Index(BMI) given a person's weight in kilograms and height in meters. 
             //The formula for BMI is BMI = (Weight) / (Height * Height)
 
-           
+
             //Console.WriteLine("Enter  your weight  ");
             //double weight = checked(Convert.ToDouble(Console.ReadLine()));
 
             //Console.WriteLine("Enter  your height (meters)");
             //double height = checked(Convert.ToDouble(Console.ReadLine()));
 
-            
+
             //double BMI = weight / (height * height);
             //Console.Clear();
 
@@ -273,36 +273,76 @@ namespace assignment
             //too cold, or just good. Assign the result in a variable then display the result. 
             //Assume that below 10 degrees is "Just Cold", above 30 degrees is "Just Hot", and anything else is "Just Good".
 
-         //   Console.WriteLine("welcome to the tempreture Checker \n \n");
+            //   Console.WriteLine("welcome to the tempreture Checker \n \n");
 
-       
-         //   Console.WriteLine("Please Enter the dgree today");
-         //bool Iscorrect=  int.TryParse(Console.ReadLine(), out int dgree);
 
-         //   if (Iscorrect) {
+            //   Console.WriteLine("Please Enter the dgree today");
+            //bool Iscorrect=  int.TryParse(Console.ReadLine(), out int dgree);
 
-         //       string message = (dgree > 30) ? "it is hot today" : 
-         //                         (dgree < 10) ? "it is cold today" : 
-         //                         "it is Good";
+            //   if (Iscorrect) {
 
-         //                     Console.WriteLine(message);
-         //   }
-           
-         //   else
-         //   {
+            //       string message = (dgree > 30) ? "it is hot today" : 
+            //                         (dgree < 10) ? "it is cold today" : 
+            //                         "it is Good";
 
-         //       Console.WriteLine("invalid input please try again");
-         //   }
+            //                     Console.WriteLine(message);
+            //   }
+
+            //   else
+            //   {
+
+            //       Console.WriteLine("invalid input please try again");
+            //   }
 
             #endregion
 
 
 
 
+            #region q11
+
+            //Write a program that takes the date from the user and displays it in various formats using string interpolation.
+            //Ex:
+            //Today’s date : 20 , 11 , 2001
+            //Today's date : 20 / 11 / 2001
+            //Today's date : 20 – 11 – 2001
+
+            //Console.Write("Enter day: ");
+            //int day = int.Parse((Console.ReadLine()));
+
+
+            //Console.Write("Enter month: ");
+            //int month = int.Parse((Console.ReadLine()));
+
+
+            //Console.Write("Enter year: ");
+            //int year = int.Parse((Console.ReadLine()));
+
+
+            
+            //Console.Clear();
+
+            //Console.WriteLine($"Today's date: {day} , {month} , {year} ");
+
+            //Console.WriteLine($"Today's date: {day} / {month} / {year}");
+
+            //Console.WriteLine($"Today's date: {day} – {month} – {year}");
 
 
 
 
         }
+
+
+        #endregion
+
+
+
+
+
+
+
+
     }
 }
+
