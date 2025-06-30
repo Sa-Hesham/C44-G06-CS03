@@ -1,11 +1,17 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.ComponentModel;
 using System.Diagnostics.Metrics;
+using System.Diagnostics.CodeAnalysis;
 
 namespace assignment
 {
     internal class Program
     {
+
+        //class Person
+        //{
+        //    public int x;
+        //}
         static void Main(string[] args)
         {
             #region Q1
@@ -138,6 +144,35 @@ namespace assignment
 
             #endregion
 
+
+
+            #region Q6
+
+            //Write C# program that assigns one reference type variable to another and modifies 
+            //    the object through one variable, then explain what happens.
+
+
+            //Person p =new Person() ;
+            //p.x = 5;
+            //Person c = p;
+
+            //class is referance type  CLR created obj in heap 
+            // p is refernce have the address of obj in stack
+            // now referance c = referance p ==> both have same address of obj 
+            // if c had change in values it will be affect on referance c 
+
+            //Console.WriteLine("before changed");
+            //Console.WriteLine("p = " + p.x);
+            //Console.WriteLine("c = "+ c.x);
+
+            //Console.WriteLine("after changed");
+            //c.x = 20;
+            //Console.WriteLine("p = " + p.x);
+            //Console.WriteLine("c = " + c.x);
+
+
+
+            #endregion
 
 
 
