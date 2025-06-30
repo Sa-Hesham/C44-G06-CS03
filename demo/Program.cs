@@ -145,7 +145,46 @@ namespace demo
 
             #endregion
 
+            #region operations
 
+            #region Arithmetic Operations 
+            //int a = 10;
+            //int b = 3;
+
+            //Console.WriteLine(a + b);  // 13
+            //Console.WriteLine(a - b);  // 7
+            //Console.WriteLine(a * b);  // 30
+            //Console.WriteLine(a / b);  // 3 
+            //Console.WriteLine(a % b);  // 1
+
+            #endregion
+
+
+            #region  Logical Operations
+
+            //bool x = true;
+            //bool y = false;
+
+            //Console.WriteLine(x && y);  // false
+            //Console.WriteLine(x || y);  // true
+            //Console.WriteLine(!x);      // false
+
+            #endregion
+
+
+            #region Assignment Operators
+            //int a = 10;
+
+            //a += 5;   // a = 15
+            //a -= 2;   // a = 13
+            //a *= 2;   // a = 26
+            //a /= 2;   // a = 13
+            //a %= 5;   // a = 3
+
+            //Console.WriteLine(a); 
+
+            #endregion
+            #endregion
 
 
 
