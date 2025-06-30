@@ -238,6 +238,93 @@ namespace demo
 
             #endregion
 
+
+            #region conditional statments
+
+            #region if statement exampl_1
+
+            //Console.WriteLine("please Enter the month number existed in 1ST quarter");
+            //int.TryParse(Console.ReadLine(), out int month);
+
+            //if (month == 1)
+            //{
+
+            //    Console.WriteLine("jeanuary");
+
+            //}
+            //else if (month == 2)
+            //{
+
+
+            //    Console.WriteLine("february");
+
+            //}
+            //else if (month == 3)
+            //{
+
+            //    Console.WriteLine("march");
+
+            //}else
+            //{
+
+            //    Console.WriteLine("invalid month");
+            //}
+
+    
+                #region switch
+
+
+            //switch (month)
+            //{
+            //    case 1:
+            //        Console.WriteLine("february");
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("february");
+            //        break;
+
+            //    case 3:
+
+            //        Console.WriteLine("march");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("invalid month");
+            //        break;
+
+            //}
+
+
+            #endregion
+
+
+            #endregion
+
+            #region Example_2
+
+            //int age =22;
+
+            //switch(age)
+            //{
+            //    case > 22:
+            //        Console.WriteLine("he is greater than 22");
+            //        break;
+            //    case < 22:
+            //        Console.WriteLine("less than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("he is 22 ");
+            //        break;
+            //}
+
+
+            #endregion
+
+
+            #endregion
+
+
         }
     }
 }
