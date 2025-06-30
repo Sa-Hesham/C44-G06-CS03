@@ -369,6 +369,23 @@ namespace assignment
 
 
 
+            #region Q14
+
+
+
+
+            //Which of the following is the correct output for the C# code given below?
+            //Console.WriteLine(13 / 2 + " " + 13 % 2);
+            //13/2 =6.5  ==> int =6;
+            //13%2 ===>reminder 1 
+            //D) output : 6  1 ;
+
+            #endregion
+
+
+
+
+
 
 
 
